@@ -18,7 +18,12 @@
 
 export default function AppFooter() {
     return (
-        <footer>questo è il footer <br />
+        <footer>
+          FOOTER <br />
+          FOOTER <br />
+          FOOTER <br />
+          FOOTER <br />
+            
         
         {/* {elementiDinamic.map((item) => (<a key={item.id} href={item.path}>{item.title}</a>))} */}
         </footer>

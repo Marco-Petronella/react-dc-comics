@@ -8,8 +8,9 @@ export default function AppMain() {
                 <div className="col-12 jumbotron">
                 </div>
             </div>
-            
+            <a className="btn btn-primary btn-sm fw-bold" href="#" role="button" id="currentButton">CURRENT SERIES</a>
             <div className="row justify-content-center align-items-top mt-4 g-1 flex-wrap" >    
+            
             {comics.map((albo) => (
                 <div key={albo.id} className="card m-2 col-2 bg-black text-bg-primary">
                     <img src={albo.thumb} className="card-img-top" alt="..." />
