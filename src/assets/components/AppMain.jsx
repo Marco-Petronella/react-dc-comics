@@ -1,14 +1,20 @@
 import comics from "../script/comics.js";
+import jumbo from "../img/jumbotron.jpg"
 
 export default function AppMain() {
     return (
         <main>
-            <div className="container row justify-content-center align-items-center g-2 flex-wrap" >    
+            <div className="row align-items-md-stretch">
+                <div className="col-12 jumbotron">
+                </div>
+            </div>
+            
+            <div className="row justify-content-center align-items-top mt-4 g-1 flex-wrap" >    
             {comics.map((albo) => (
-                <div key={albo.id} className="card col-2">
+                <div key={albo.id} className="card m-2 col-2 bg-black text-bg-primary">
                     <img src={albo.thumb} className="card-img-top" alt="..." />
                     <div className="card-body">
-                        <h5 className="card-title">{albo.title} {albo.price}</h5>
+                        <p className="card-title">{albo.series}</p>
                     </div>
                 </div>
             ))}                    
