@@ -15,6 +15,11 @@ main {
     height: 400px;
   }
 }
+.card {
+  img {
+    max-width: 350px ;
+  }
+}
 
 #currentButton {
   position: relative;

@@ -43,13 +43,25 @@ const comics = [
     artists: ["Stjepan Sejic"],
     writers: ["Dan Abnett"]
   },
+    {
+    id: 500,
+    title: "Aquaman Vol. 4: Underworld",
+    description: "Enraged by rumors of Arthur's survival in the slums of Atlantis, the ruthless King Rath orders the use of ancient Atlantean techno-magic to track down the Aquaman at all costs! But the ex-king Arthur can't hide for long when his fate collides with that of a mysterious young woman on the run from Rath's own secret police. Her name: Dolphin. Collects AQUAMAN #25-30.",
+    // thumb: "https://imgs.search.brave.com/gAZQuZyt6WjcUWF6aXCIBaiJqtOJAK-X4nxS9Vbvwno/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4y/LnBlbmd1aW4uY29t/LmF1L2NvdmVycy9v/cmlnaW5hbC85Nzgx/NDAxMjc1NDI2Lmpw/Zw",
+    price: "$16.99",
+    series: "Aquaman",
+    sale_date: "2018-01-24",
+    type: "graphic novel",
+    artists: ["Stjepan Sejic"],
+    writers: ["Dan Abnett"]
+  },
   {
     id: 4,
     title: "Batgirl #1",
     description: "“Beyond Burnside” Chapter One: The Batgirl you know and love is going global with Eisner Award-winning and New York Times best-selling writer Hope Larson (A Wrinkle in Time, Goldie Vance) and all-star artist Rafael Albuquerque (AMERICAN VAMPIRE). In order to up her game, Babs travels to Japan on a quest to train with the most elite modern combat masters of the East. But when a chance meeting with an old friend puts a target on her back, Batgirl may need to use her new skills to solve a deadly mystery.",
     thumb: "https://imgs.search.brave.com/YET9wY29Aa29TyHqlbieS9qsz3HWyNYQx-WkRqdBRX4/rs:fit:640:984:1/g:ce/aHR0cDovL2dldHlv/dXJjb21pY29uLmNv/LnVrL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE2LzA4L2JhdGdp/cmwtcmViaXJ0aC0x/LWNvdmVyLmpwZw",
     price: "$2.99",
-    series: "Batgirl",
+    series: "",
     sale_date: "2016-07-27",
     type: "comic book",
     artists: ["Rafael Albuquerque"],
