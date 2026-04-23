@@ -1,12 +1,11 @@
-import comics from '../script/comics.js'
+import ProductCard from "../components/ProductCard";
 
-function filtering(comics, filterValue) {
-    const filtered = comics.filter((albo) => {
-        const stringa = albo.series;
-        if (stringa.includes(filterValue)) return(albo);
-    })
-    console.log(filtered);
-    return filtered;
+export default function filtering(comics, filterValue) {
+  const filtered = comics.filter((albo) => {
+    const stringa = albo.series.toLowerCase();
+    if (stringa.includes(filterValue.toLowerCase())) return albo;
+  });
+  console.log(filtered);
+  return filtered;
 }
 
-export default filtering;

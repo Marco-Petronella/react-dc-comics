@@ -2,6 +2,7 @@ import ComicsImgPlaceholder from "../img/ComicsPlaceholder.jpg";
 export default function ProductCard({albo}) {
     return (
         <>
+            
             <div key={albo.id} className="card m-2 col-2 bg-black text-bg-primary">
                 {albo.advise && <button className="btn btn-primary advise">
                     {albo.advise}
