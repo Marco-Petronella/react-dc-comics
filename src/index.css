@@ -24,3 +24,9 @@ main {
 card {
   background-color: black;
 }
+.advise {
+  position: absolute;
+  top: -15px;
+  left: 15px; 
+  min-width: 100px;
+}

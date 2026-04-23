@@ -53,7 +53,8 @@ const comics = [
     sale_date: "2016-07-27",
     type: "comic book",
     artists: ["Rafael Albuquerque"],
-    writers: ["Hope Larson"]
+    writers: ["Hope Larson"],
+    advise: ["on Sale"]
   },
   {
     id: 5,
@@ -65,7 +66,8 @@ const comics = [
     sale_date: "2018-10-03",
     type: "comic book",
     artists: ["Tony S. Daniel"],
-    writers: ["Tom King"]
+    writers: ["Tom King"],
+    advise: ["Bestsellers"]
   },
   {
     id: 6,
@@ -78,6 +80,7 @@ const comics = [
     type: "comic book",
     artists: ["Bernard Chang"],
     writers: ["Dan Jurgens"],
+    advise: ["New"]
   },
   {
     id: 7,
@@ -126,6 +129,7 @@ const comics = [
     type: "comic book",
     artists: ["Jason Fabok"],
     writers: ["Geoff Johns"],
+    advise: ["Raccomended"]
   },
   {
     id: 11,
@@ -146,6 +150,18 @@ const comics = [
     thumb: "https://imgs.search.brave.com/bf_FlGnymAgmvweY8YiLAcyy600JdSMl_jHpdR3t5ro/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvNTA5/M2IxOTEtZTkzZS00/NTJjLThhYTQtYTEw/ZDY0ZTcxN2E5LjA5/N2UwZWM5NDgzYzky/OGExMjY4Nzk1Nzk2/NTliZWNjLmpwZWc_/b2RuV2lkdGg9NjEy/Jm9kbkhlaWdodD02/MTImb2RuQmc9ZmZm/ZmZm",
     price: "$16.99",
     series: "Catwoman",
+    sale_date: "2019-04-10",
+    type: "graphic novel",
+    artists: ["Fernando Blanco", "Joëlle Jones"],
+    writers: ["Joëlle Jones"],
+  },
+    {
+    id: 13,
+    title: "Lobo vs Daredevil",
+    description: "DIMENTICATE IL POLITICALLY CORRECT E METTETE A NANNA I BAMBINI PERCHE’ LOBO E’ TORNATO! IL VOLUME D’ESORDIO DELLA COLLANA CHE RACCOGLIE INTEGRALMENTE LE SCORRIBANDE DEL CACCIATORE DI TAGLIE PIU’ SCORRETTO DELL’UNIVERSO! DALLA PRIMA MINISERIE, DISEGNATA DA SIMON BISLEY, ALLA SERIE REGOLARE CAMPIONE D’INCASSI NEGLI ANNI NOVANTA! UNO SFRAZZUTISSIMO FUMETTO PIENO DI SBARBE E DI BASSA MACELLERIA CHE SOLO UN COGLIONZO LASCEREBBE LI, PAROLA DEL GRAND’UOMO!",
+    // thumb: "https://imgs.search.brave.com/bf_FlGnymAgmvweY8YiLAcyy600JdSMl_jHpdR3t5ro/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvNTA5/M2IxOTEtZTkzZS00/NTJjLThhYTQtYTEw/ZDY0ZTcxN2E5LjA5/N2UwZWM5NDgzYzky/OGExMjY4Nzk1Nzk2/NTliZWNjLmpwZWc_/b2RuV2lkdGg9NjEy/Jm9kbkhlaWdodD02/MTImb2RuQmc9ZmZm/ZmZm",
+    price: "$16.99",
+    series: "Lobo",
     sale_date: "2019-04-10",
     type: "graphic novel",
     artists: ["Fernando Blanco", "Joëlle Jones"],
